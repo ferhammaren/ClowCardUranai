@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClowCardUranai", "ClowCardUranai\ClowCardUranai.csproj", "{6B0FDE2F-7F1E-4ABB-B9AA-92F77AC3A185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClowCardUranai.BLL", "ClowCardUranai.BLL\ClowCardUranai.BLL.csproj", "{97F6FA88-C935-41B3-8A4D-D934077F7E76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClowCardUranai.DAL", "ClowCardUranai.DAL\ClowCardUranai.DAL.csproj", "{E436B83C-ED43-4C83-AD25-2735A877A14A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B0FDE2F-7F1E-4ABB-B9AA-92F77AC3A185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0FDE2F-7F1E-4ABB-B9AA-92F77AC3A185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0FDE2F-7F1E-4ABB-B9AA-92F77AC3A185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0FDE2F-7F1E-4ABB-B9AA-92F77AC3A185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F6FA88-C935-41B3-8A4D-D934077F7E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F6FA88-C935-41B3-8A4D-D934077F7E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F6FA88-C935-41B3-8A4D-D934077F7E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F6FA88-C935-41B3-8A4D-D934077F7E76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E436B83C-ED43-4C83-AD25-2735A877A14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E436B83C-ED43-4C83-AD25-2735A877A14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E436B83C-ED43-4C83-AD25-2735A877A14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E436B83C-ED43-4C83-AD25-2735A877A14A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
