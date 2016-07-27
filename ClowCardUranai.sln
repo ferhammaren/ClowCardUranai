@@ -4,10 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClowCardUranai.BLL", "ClowCardUranai.BLL\ClowCardUranai.BLL.csproj", "{97F6FA88-C935-41B3-8A4D-D934077F7E76}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E436B83C-ED43-4C83-AD25-2735A877A14A} = {E436B83C-ED43-4C83-AD25-2735A877A14A}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClowCardUranai.DAL", "ClowCardUranai.DAL\ClowCardUranai.DAL.csproj", "{E436B83C-ED43-4C83-AD25-2735A877A14A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClowCardUranai.GUI", "ClowCardUranai.GUI\ClowCardUranai.GUI.csproj", "{DCEE2314-8702-4C2C-AB4E-0D31A2860C9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClowCardUranai.TestGUI", "ClowCardUranai.TestGUI\ClowCardUranai.TestGUI.csproj", "{1831E476-BECF-4348-A26D-96240D652298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClowCardUranai.ConsoleTest", "ClowCardUranai.ConsoleTest\ClowCardUranai.ConsoleTest.csproj", "{90014380-729F-4D6E-9118-294198AA71EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +32,17 @@ Global
 		{E436B83C-ED43-4C83-AD25-2735A877A14A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DCEE2314-8702-4C2C-AB4E-0D31A2860C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DCEE2314-8702-4C2C-AB4E-0D31A2860C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DCEE2314-8702-4C2C-AB4E-0D31A2860C9F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{DCEE2314-8702-4C2C-AB4E-0D31A2860C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCEE2314-8702-4C2C-AB4E-0D31A2860C9F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DCEE2314-8702-4C2C-AB4E-0D31A2860C9F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1831E476-BECF-4348-A26D-96240D652298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1831E476-BECF-4348-A26D-96240D652298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1831E476-BECF-4348-A26D-96240D652298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1831E476-BECF-4348-A26D-96240D652298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90014380-729F-4D6E-9118-294198AA71EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90014380-729F-4D6E-9118-294198AA71EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90014380-729F-4D6E-9118-294198AA71EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90014380-729F-4D6E-9118-294198AA71EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

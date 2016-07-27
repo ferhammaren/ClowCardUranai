@@ -1,18 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ClowCardUranai.BLL.Models
+﻿namespace ClowCardUranai.BLL.Models
 {
-    class ClowCard
+    /// <summary>
+    /// Model class for Clow cards
+    /// </summary>
+    public class ClowCard
     {
         string cardName { get; set; }
         string meaning1 { get; set; }
         string meaning2 { get; set; }
         string picture { get; set; }
-
+        /// <summary>
+        /// Constructor for Clow Cards
+        /// </summary>
+        /// <param name="cardName">Name of the card</param>
+        /// <param name="meaning1">First meaning</param>
+        /// <param name="meaning2">Second meaning</param>
+        /// <param name="picture">Picture path url</param>
         public ClowCard(string cardName,string meaning1, string meaning2, string picture)
         {
             this.cardName = cardName;
@@ -20,6 +23,9 @@ namespace ClowCardUranai.BLL.Models
             this.meaning2 = meaning2;
             this.picture = picture;
         }
+        /// <summary>
+        /// Empty constructor for Clow Cards
+        /// </summary>
         public ClowCard()
         {
             
