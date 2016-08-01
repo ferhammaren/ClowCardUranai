@@ -43,6 +43,8 @@
     <Compile Include="GeneralReading.cs" />
     <Compile Include="Models\ClowCard.cs" />
     <Compile Include="Models\Spread.cs" />
+    <Compile Include="MoonReading.cs" />
+    <Compile Include="RomanceReading.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ClowCardUranai.DAL\ClowCardUranai.DAL.csproj">

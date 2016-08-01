@@ -59,25 +59,5 @@ namespace ClowCardUranai.ConsoleTest.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] cardList {
-            get {
-                object obj = ResourceManager.GetObject("cardList", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] userConfig {
-            get {
-                object obj = ResourceManager.GetObject("userConfig", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
     }
 }

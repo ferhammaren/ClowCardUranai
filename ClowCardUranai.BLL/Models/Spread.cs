@@ -30,8 +30,8 @@ namespace ClowCardUranai.BLL.Models
         /// <summary>
         /// The filled list will be according to the rules of the spread
         /// </summary>
-        /// <param name="cards"></param>
-        public abstract void fillCardList(ClowCard[] cards);
+        /// <param name="cards">List of shuffled cards in number form</param>
+        public abstract void fillCardList(int[] cards);
 
     }
 }

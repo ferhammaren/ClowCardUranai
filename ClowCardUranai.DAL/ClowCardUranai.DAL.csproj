@@ -49,7 +49,9 @@
     <Compile Include="USER.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cardList.dat" />
+    <None Include="Resources\cardList.dat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Resources\userConfig.dat">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
